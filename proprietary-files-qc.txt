@@ -46,6 +46,11 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so|8bdd74d69593cd838e4b92d9b2884e0c4140226f 
 vendor/lib64/soundfx/libqcvirt.so
 
+# Audio dirac - from xiaomi
+lib/soundfx/libdirac.so 
+lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+
 # ANT+ (vendor)
 vendor/lib64/com.qualcomm.qti.ant@1.0.so
 
