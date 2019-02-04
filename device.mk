@@ -70,6 +70,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Ambient Display
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -79,6 +83,10 @@ PRODUCT_PACKAGES += \
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
+
+# Ambient Display
+PRODUCT_PACKAGES += \
+    XiaomiDoze
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -159,7 +167,7 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     vendor.display.config@1.0 \
     vendor.display.config@1.0_vendor
-	
+
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
@@ -174,10 +182,6 @@ PRODUCT_PACKAGES += \
     ethertypes \
     libebtc
     
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # FM
 PRODUCT_PACKAGES += \
     FMRadio \
