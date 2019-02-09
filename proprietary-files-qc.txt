@@ -64,7 +64,6 @@ vendor/lib64/libaptXHD_encoder.so|c4ad4d6d7615f7df3ea1a4be5c6dae8a8c8ee8b1
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/bin/wcnss_filter
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
