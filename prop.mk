@@ -56,7 +56,6 @@ vendor.voice.conc.fallbackpath=deep-buffer \
 persist.vendor.audio.speaker.prot.enable=false \
 vendor.audio.hw.aac.encoder=true \
 vendor.audio.flac.sw.decoder.24bit=true \
-ro.af.client_heap_size_kbyte=7168 \
 persist.vendor.audio.hw.binder.size_kbyte=1024 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
