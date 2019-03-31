@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Boot Animation
-TARGET_BOOT_ANIMATION_RES := 2140
+TARGET_BOOT_ANIMATION_RES := 2160
 
 # Device identifier
 PRODUCT_DEVICE := vince
