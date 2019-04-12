@@ -213,9 +213,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 persist.debug.wfd.enable=1 \
 persist.sys.wfd.virtual=0
 
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.xenonhd.maintainer=rama982
-
 # Unsorted properties
 PRODUCT_PROPERTY_OVERRIDES += \
 keyguard.no_require_sim=true \
