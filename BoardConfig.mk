@@ -198,7 +198,7 @@ TARGET_USES_OLD_MNC_FORMAT := true
 DISABLE_RILD_OEM_HOOK := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-02-01
+VENDOR_SECURITY_PATCH := 2019-03-01
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
