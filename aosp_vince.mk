@@ -47,6 +47,9 @@ BUILD_FINGERPRINT := "xiaomi/vince/vince:8.1.0/OPM1.171019.019/9.3.28:user/relea
 # Use Jelly 
 TARGET_USE_JELLY := true
 
+#Official Tag
+export export EXTENDED_BUILD_TYPE=OFFICIAL
+
 # Set this flag in build script
 ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
